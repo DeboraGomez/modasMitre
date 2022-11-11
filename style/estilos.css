@@ -449,7 +449,7 @@ border: solid 1px #121212;
         font-size: 14px;
         color: #fff;
         background-color: #25262d;
-        border-top: 2px solid black;
+        border-top: 2px solid #F21D44;
         padding-bottom: 0px;
         padding-top: 20px;
     }
@@ -501,7 +501,61 @@ border: solid 1px #121212;
             font-size: 16px;
             color: #fff;
             background-color: #25262d;
-            border-top: 2px solid black;
+            border-top: 2px solid #F21D44;
+            padding-bottom: 0px;
+            padding-top: 20px;
+        }
+        footer form h1{
+            text-align: center;
+        }
+        .mb-3{
+            margin-bottom: 2rem !important;
+        }
+        .form-label {
+            margin-top: 1rem;
+            margin-bottom: 1rem;
+        }
+        
+    }
+    @media screen and (max-width: 1024px) {
+        
+        .promos{
+            display: flex;
+            flex-direction: column;
+            margin-top: 30px;
+        }
+        .since{
+            display: flex;
+            flex-direction: column;
+        }
+        .ilus{
+            
+            width: 10rem;
+            margin: 10px;
+        }
+        div h6{
+            font-size: 24px;
+            padding: 20px;
+        } 
+        .whatsapp {
+            right: 10px;
+            border: none;
+            box-shadow: none;
+            }
+            .wIcon img {
+                width: 70%;
+            }
+        footer {
+            display: grid;
+            grid-template-areas:
+            "titulof titulof titulof "
+            "titulof titulof titulof"
+            "facebook twitter insta"
+            "politica boton compra";
+            font-size: 16px;
+            color: #fff;
+            background-color: #25262d;
+            border-top: 2px solid #F21D44;
             padding-bottom: 0px;
             padding-top: 20px;
         }
