@@ -275,18 +275,56 @@ div h6{
     padding: 30px;
     background-color: #fff;
 }
+.tituloNosotros{
+    font-size: 34px;
+    font-weight: 400;
+    padding-left: 30px;
+    color: #25262d;
+}
+.textoNosotros{
+    text-align: left;
+    padding: 50px;
+    font-size: 24px;
+}
+
+h3{
+    padding: 30px;
+}
+.faq{
+width: 100%;
+}
 footer {
-    display: grid;
-    grid-template-areas:
-    "titulof facebook twitter insta"
-    "titulof politica boton compra"
-    "titulof none none none";
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
     font-size: 16px;
     color: #fff;
     background-color: #25262d;
     border-top: 2px solid #F21D44;
     padding-bottom: 20px;
     padding-top: 60px;
+}
+.links{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+.links a {
+    text-decoration: none;
+    color: #fff;
+    padding: 20px;
+    
+}
+
+.puente{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+
 }
 footer form h1{
     text-align: center;
@@ -318,46 +356,7 @@ border: solid 1px #121212;
     font-weight: bold;
     padding: 40px;
 }
-.facebook{
-    grid-area: facebook;
-    text-align: center;
-    padding: 50px;
-}
-.twitter{
-    grid-area: twitter;
-    text-align: center;
-    padding: 50px;
-}
-.insta{
-    grid-area: insta;
-    text-align: center;
-    padding: 50px;
-}
-.pinte{
-    grid-area: pinte;
-    text-align: center;
-    padding: 10px;
-}
-.youtube{
-    grid-area: youtube;
-    text-align: center;
-    padding: 10px;
-}
-.cookies{
-    grid-area: cookies;
-    text-align: center;
-    padding: 10px;
-}
-.politica{
-    grid-area: politica;
-    text-align: center;
-    padding: 10px;
-}
-.compra{
-    grid-area: compra;
-    text-align: center;
-    padding: 10px;
-}
+
 .boton{
     grid-area: boton;
     text-align: center;
@@ -369,6 +368,7 @@ border: solid 1px #121212;
 .form-control {
     border: 1px solid #F21D44;
 }
+
 
 @media screen and (max-width: 545px) {
     nav{
@@ -425,9 +425,15 @@ border: solid 1px #121212;
     .wIcon img {
         width: 70%;
     }
+    .textoNosotros{
+        font-size: 20px;
+        font-weight: normal;
+        
+    }
     
     footer{
         font-size: 12px;
+        flex-direction: column;
     }
     .titulof{
         font-size: 14px;
@@ -437,29 +443,6 @@ border: solid 1px #121212;
     }
     .formulario{
         font-size: 16px;
-    }
-    
-    footer {
-        display: grid;
-        grid-template-areas:
-        "titulof titulof titulof "
-        "titulof titulof titulof"
-        "facebook twitter insta"
-        "politica boton compra";
-        font-size: 14px;
-        color: #fff;
-        background-color: #25262d;
-        border-top: 2px solid #F21D44;
-        padding-bottom: 0px;
-        padding-top: 20px;
-    }
-    footer form h1{
-        text-align: center;
-    }
-    .twitter,
-    .insta,
-    .facebook {
-        padding: 10px;
     }
     
 }
@@ -491,20 +474,7 @@ border: solid 1px #121212;
             .wIcon img {
                 width: 70%;
             }
-        footer {
-            display: grid;
-            grid-template-areas:
-            "titulof titulof titulof "
-            "titulof titulof titulof"
-            "facebook twitter insta"
-            "politica boton compra";
-            font-size: 16px;
-            color: #fff;
-            background-color: #25262d;
-            border-top: 2px solid #F21D44;
-            padding-bottom: 0px;
-            padding-top: 20px;
-        }
+        
         footer form h1{
             text-align: center;
         }
@@ -545,20 +515,7 @@ border: solid 1px #121212;
             .wIcon img {
                 width: 70%;
             }
-        footer {
-            display: grid;
-            grid-template-areas:
-            "titulof titulof titulof "
-            "titulof titulof titulof"
-            "facebook twitter insta"
-            "politica boton compra";
-            font-size: 16px;
-            color: #fff;
-            background-color: #25262d;
-            border-top: 2px solid #F21D44;
-            padding-bottom: 0px;
-            padding-top: 20px;
-        }
+        
         footer form h1{
             text-align: center;
         }
